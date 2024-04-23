@@ -209,17 +209,18 @@ body {
 .informacoes p {
     padding-top: 15px;
     border-top: 1px solid #e8e8e8;
-    font-size: 1.07em;
+    font-size: 15px;
     text-align: justify;
 }
 
 .informacoes h5 {
     padding-top: 5px;
     padding-bottom: 3px;
+    font-size: 11px;
 }
 
 .informacoes h5 strong {
     color: #7389ec;
-    font-size: 1.1em;
+    font-size: 12.5px;
     font-weight: bolder;
 }
