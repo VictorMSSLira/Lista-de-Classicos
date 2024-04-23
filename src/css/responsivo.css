@@ -1,0 +1,149 @@
+@media (min-width: 1540px) {
+    .livro .informacoes {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .home .imagem-fundo {
+        object-position: 85%;
+    }
+
+    .home .lista-livros h2 {
+        font-size: 45px;
+    }
+
+    .home .lista-livros p {
+        font-size: 25px;
+    }
+
+    .bt-titulo {
+        font-size: 13px;
+        padding: 3px 12px;
+        width: 65%;
+    }
+
+    .informacoes h2 {
+        font-size: 2.2em;
+    }
+
+    .informacoes p {
+        font-size: 0.95em;
+    }
+
+    .informacoes h5 strong {
+        font-size: 0.9em;
+    }
+
+    .livro .informacoes {
+        width: 60%;
+        margin-left: 345px;
+    }
+
+    .livro .capa {
+        padding-left: 15%;
+    }
+}
+
+@media (max-width: 880px) {
+    .home .imagem-fundo {
+        object-position: 65%;
+    }
+
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    }
+
+    .cabecalho .menu li a {
+        padding: 8px 55px;
+    }
+
+    .titulo-detalhes h2 {
+        text-align: center;
+    }
+
+    .capa-do-livro {
+        width: 215px;
+    }
+
+    .livro .cartao {
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .livro .capa {
+        flex-direction: column;
+        padding: 0%;
+    }
+
+    .livro {
+        text-align: center;
+    }
+
+    .livro .informacoes {
+        position: relative;
+        margin: auto;
+    }
+
+    .informacoes h2 {
+        padding-top: 25px;
+    }
+
+    .informacoes p {
+        padding-bottom: 50px;
+    }
+
+    .bts-livro {
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 750px) {
+    .home::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.70) 45%, rgba(0, 0, 0, 0.12) 85%, rgba(0, 0, 0, 0.05) 100%);
+    }
+}
+
+@media (max-width: 490px) {
+    .logo h1 {
+        font-size: 23px;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .cabecalho .menu {
+        gap: 15px;
+    }
+
+    .cabecalho .menu li a {
+        padding: 12px 30px;
+    }
+
+    .home::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85) 45%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.2) 100%);
+    }
+
+    .home .imagem-fundo {
+        object-position: 67%;
+    }
+
+    .home .lista-livros {
+        padding-left: 50px;
+    }
+
+    .bt-titulo {
+        width: 90%;
+    }
+
+    .titulo-detalhes h2 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
