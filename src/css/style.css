@@ -219,8 +219,23 @@ body {
     font-size: 11px;
 }
 
+.informacoes h4{
+    font-family: 'Chalet', sans-serif;
+}
+
+.avaliacao div{
+    font-size: 85%;
+    width: 115px;
+}
+
 .informacoes h5 strong {
     color: #7389ec;
     font-size: 12.5px;
     font-weight: bolder;
+}
+
+.avaliacao div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
